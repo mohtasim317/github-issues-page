@@ -31,57 +31,6 @@ h4 {
   flex-direction: column;
 }
 
-.blue-link {
-  font-size: 20px;
-  color: rgb(2, 102, 214);
-}
-.blue-link:hover {
-  text-decoration: underline;
-}
-
-.button-and-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.button-text {
-  padding: 0px 0px 0px 5px;
-}
-
-.button-list {
-  display: flex;
-  height: 32px;
-  flex-direction: row;
-  align-items: center;
-}
-
-.button {
-  height: 28px;
-  margin: 5px;
-  display: flex;
-  flex-direction: row;
-  border-radius: 6px;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid rgb(225, 228, 232);
-  font-size: 12px;
-}
-
-.button.watch {
-  width: 147px;
-}
-
-.button-and-text-watch {
-  width: 97px;
-  height: 28px;
-  display: flex;
-  flex-direction: row;
-  padding: 0px 0px 0px 10px;
-  align-items: center;
-  border-right: 1px solid rgb(225, 228, 232);
-}
-
 .button-filter {
   display: flex;
   flex-direction: column;
@@ -101,81 +50,10 @@ h4 {
   font-size: 14px;
 }
 
-.button-and-text-star {
-  width: 70px;
-  height: 28px;
-  display: flex;
-  flex-direction: row;
-  padding: 0px 0px 0px 10px;
-  align-items: center;
-  border-right: 1px solid rgb(225, 228, 232);
-}
-
-.button-and-text-fork {
-  width: 70px;
-  height: 28px;
-  display: flex;
-  flex-direction: row;
-  padding: 0px 0px 0px 10px;
-  align-items: center;
-  border-right: 1px solid rgb(225, 228, 232);
-}
-
-.button.fork {
-  width: 127px;
-}
-
-.button.star {
-  width: 123px;
-}
-
-.code-button {
-  width: 90px;
-}
-
-.count {
-  height: 24px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  border-radius: 6px;
-  background-color: white;
-}
-
-.count-watch {
-  width: 53px;
-}
-
-.count-watch:hover {
-  color: rgb(2, 102, 214);
-}
-
-.count-star {
-  width: 55px;
-}
-
-.count-star:hover {
-  color: rgb(2, 102, 214);
-}
-
-.count-fork {
-  width: 60px;
-}
-
-.count-fork:hover {
-  color: rgb(2, 102, 214);
-}
-
 .filter-and-form {
   display: flex;
   flex-direction: row;
   width: 100%;
-}
-
-.facebook-link {
-  padding: 0px 0px 0px 7px;
 }
 
 .insights-button {
@@ -209,21 +87,6 @@ h4 {
 .issues-svg {
   fill: black;
 }
-.repo-links {
-  display: flex;
-  align-items: center;
-}
-
-.link-and-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 32px;
-  width: 100%;
-  margin: 15px 0px 0px 0px;
-  padding: 0px 32px;
-}
 
 .list-of-issues {
   display: flex;
@@ -243,10 +106,6 @@ h4 {
   color: white;
   font-size: 14px;
   border-radius: 6px;
-}
-
-.projects-button {
-  width: 110px;
 }
 
 .labels-and-milestones {
@@ -288,10 +147,6 @@ h4 {
   width: 180px;
 }
 
-.react-link {
-  font-weight: 600;
-}
-
 .rendered-app {
   width: 100%;
   display: flex;
@@ -300,18 +155,6 @@ h4 {
 }
 .repo-link-svg {
   padding: 0px 10px 0px 0px;
-}
-
-.repo-header {
-  background-color: rgb(250, 251, 252);
-  width: 100%;
-  height: 112px;
-  margin: 0px;
-  display: flex;
-  flex-direction: column;
-  /* align-content: space-around; */
-  justify-content: space-between;
-  margin: 0px 0px 30px 0px;
 }
 
 .search-and-list-container {
@@ -369,37 +212,8 @@ h4 {
   fill: rgb(83, 172, 81);
 }
 
-.tab {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 48px;
-  padding: 12px 16px;
-  font-size: 14px;
-}
-
-.tab-text {
-  padding: 0px 0px 0px 5px;
-}
-
 .tab:hover {
   border-bottom: 2px solid rgb(210, 214, 219);
-}
-
-.tabs {
-  background-color: rgb(250, 251, 252);
-  display: flex;
-  flex-direction: row;
-}
-
-.tabs-row {
-  display: flex;
-  flex-direction: row;
-  height: 48px;
-  /* align-items: center; */
-  /* justify-content: space-around; */
-  padding: 0px 32px;
-  border-bottom: 1px solid rgb(225, 228, 232);
 }
 
 .wiki-button {
@@ -492,13 +306,6 @@ h4 {
     justify-content: center;
     align-items: center;
   }
-  .tabs-row {
-    padding: 0px 5px;
-    display: flex;
-    justify-content: center;
-  }
-
-  /* 765 no more p m */
 }
 
 @media all and (max-width: 507px) {
@@ -517,31 +324,6 @@ h4 {
 }
 
 @media all and (max-width: 424px) {
-  .tab.pull-button {
-    fill: none;
-  }
-  .code-button {
-    width: 30%;
-  }
-  .issues-button {
-    width: 30%;
-    font-size: 12px;
-  }
-  .pull-button {
-    width: 30%;
-    font-size: 12px;
-  }
-  .pull-button {
-    display: none;
-  }
-  .tab {
-    width: 100%;
-    justify-content: center;
-  }
-  .tabs {
-    width: 90%;
-    justify-content: center;
-  }
   .labels-button {
     font-size: 10px;
   }
@@ -562,6 +344,3 @@ h4 {
   }
 }
 
-.gray-hover:hover {
-  background-color: rgb(246, 248, 250);
-}

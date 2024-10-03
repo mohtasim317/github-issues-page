@@ -1,5 +1,5 @@
 import React, { useState, useEffect, FC } from "react";
-import RepoHeader from "./components/RepoHeader";
+import RepoHeader from "./components/RepoHeader/RepoHeader";
 import SearchBar from "./components/SearchBar";
 import Issues from "./components/Issues/Issues";
 import IssueHeader from "./components/IssuesHeader/IssueHeader";

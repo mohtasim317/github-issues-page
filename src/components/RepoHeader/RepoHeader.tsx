@@ -1,7 +1,6 @@
 import React, { FC } from "react";
-import "../index.css";
+import "./RepoHeader.css";
 
-//change "any" on line 5
 const RepoHeader: FC = () => {
   return (
     <div className="repo-header">

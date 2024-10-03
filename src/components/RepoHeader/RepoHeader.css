@@ -1,0 +1,219 @@
+.repo-header {
+  background-color: rgb(250, 251, 252);
+  width: 100%;
+  height: 112px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 0px 30px 0px;
+}
+
+.link-and-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  width: 100%;
+  margin: 15px 0px 0px 0px;
+  padding: 0px 32px;
+}
+
+.repo-links {
+  display: flex;
+  align-items: center;
+}
+
+.blue-link {
+  font-size: 20px;
+  color: rgb(2, 102, 214);
+}
+.blue-link:hover {
+  text-decoration: underline;
+}
+
+.facebook-link {
+  padding: 0px 0px 0px 7px;
+}
+
+.react-link {
+  font-weight: 600;
+}
+
+.button-list {
+  display: flex;
+  height: 32px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-text {
+  padding: 0px 0px 0px 5px;
+}
+
+.button-and-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  height: 28px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 6px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(225, 228, 232);
+  font-size: 12px;
+}
+
+.button.watch {
+  width: 147px;
+}
+
+.button-and-text-watch {
+  width: 97px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 10px;
+  align-items: center;
+  border-right: 1px solid rgb(225, 228, 232);
+}
+
+.button-and-text-star {
+  width: 70px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 10px;
+  align-items: center;
+  border-right: 1px solid rgb(225, 228, 232);
+}
+
+.button-and-text-fork {
+  width: 70px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 10px;
+  align-items: center;
+  border-right: 1px solid rgb(225, 228, 232);
+}
+
+.button.fork {
+  width: 127px;
+}
+
+.button.star {
+  width: 123px;
+}
+
+.code-button {
+  width: 90px;
+}
+
+.tabs-row {
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  padding: 0px 32px;
+  border-bottom: 1px solid rgb(225, 228, 232);
+}
+
+.tabs {
+  background-color: rgb(250, 251, 252);
+  display: flex;
+  flex-direction: row;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 48px;
+  padding: 12px 16px;
+  font-size: 14px;
+}
+
+.tab-text {
+  padding: 0px 0px 0px 5px;
+}
+
+.projects-button {
+  width: 110px;
+}
+
+.count {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.count-watch {
+  width: 53px;
+}
+
+.count-watch:hover {
+  color: rgb(2, 102, 214);
+}
+
+.count-star {
+  width: 55px;
+}
+
+.count-star:hover {
+  color: rgb(2, 102, 214);
+}
+
+.count-fork {
+  width: 60px;
+}
+
+.count-fork:hover {
+  color: rgb(2, 102, 214);
+}
+
+@media all and (max-width: 768px) {
+  .tabs-row {
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 424px) {
+  .issues-button {
+    width: 30%;
+    font-size: 12px;
+  }
+  .tab.pull-button {
+    fill: none;
+  }
+  .tabs {
+    width: 90%;
+    justify-content: center;
+  }
+  .tab {
+    width: 100%;
+    justify-content: center;
+  }
+  .pull-button {
+    display: none;
+  }
+  .code-button {
+    width: 30%;
+  }
+}
+
+.gray-hover:hover {
+  background-color: rgb(246, 248, 250);
+}
