@@ -1,0 +1,142 @@
+.search-bar-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 32px;
+  justify-content: space-evenly;
+  margin: 0px 0px 18px 0px;
+}
+
+.filter-and-form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.button-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+  height: 32px;
+  border-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 0px;
+  background-color: rgb(246, 248, 250);
+  border: 1px solid rgb(217, 219, 219);
+  word-break: keep-all;
+  font-size: 14px;
+}
+
+.search-bar {
+  height: 32px;
+  width: 63%;
+  border-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 1px solid rgb(230, 248, 250);
+  background-color: rgb(250, 251, 252);
+}
+
+.labels-and-milestones {
+  padding: 0px 0px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.labels-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 130px;
+  text-align: center;
+  border: 1px solid rgb(225, 228, 232);
+  border-right: 0px;
+  border-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 14px;
+}
+
+.gray-hover:hover {
+  background-color: rgb(246, 248, 250);
+}
+
+.number {
+  font-size: 12px;
+}
+
+.milestones-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  border: 1px solid rgb(225, 228, 232);
+  border-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 14px;
+}
+
+.new-issue {
+  width: 112px;
+  height: 32px;
+  background-color: rgb(77, 165, 79);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.svg {
+  height: 16px;
+  width: 16px;
+  fill: rgb(149, 157, 165);
+}
+
+@media all and (max-width: 768px) {
+  .labels-button {
+    width: 100%;
+    font-size: 12px;
+  }
+  .milestones-button {
+    width: 100%;
+    font-size: 12px;
+  }
+  .new-issue {
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+@media all and (max-width: 424px) {
+  .button-filter {
+    font-size: 10px;
+  }
+  .labels-button {
+    font-size: 10px;
+  }
+  .number {
+    font-size: 10px;
+  }
+  .milestones-button {
+    font-size: 10px;
+  }
+  .milestones-svg {
+    display: none;
+  }
+  .labels-svg {
+    display: none;
+  }
+}

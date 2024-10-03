@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "../index.css";
+import "./SearchBar.css";
 
 interface Props {
   searchingFunction: any;

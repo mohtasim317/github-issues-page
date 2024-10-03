@@ -19,9 +19,6 @@ h4 {
     sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-weight: 550px;
 }
-.actions-button {
-  width: 105px;
-}
 
 .app {
   background-color: rgb(255, 255, 255);
@@ -29,39 +26,6 @@ h4 {
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.button-filter {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  margin: 0px;
-  padding: 0px;
-  height: 32px;
-  border-radius: 6px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border: 0px;
-  background-color: rgb(246, 248, 250);
-  border: 1px solid rgb(217, 219, 219);
-  word-break: keep-all;
-  font-size: 14px;
-}
-
-.filter-and-form {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.insights-button {
-  width: 110px;
-}
-
-.issues-button {
-  width: 140px;
 }
 
 .issue-row {
@@ -78,73 +42,11 @@ h4 {
   background-color: rgb(246, 248, 250);
 }
 
-.issues-button {
-  width: 140px;
-  border-bottom: 2px solid rgb(240, 129, 107);
-  font-weight: 600;
-}
-
-.issues-svg {
-  fill: black;
-}
-
 .list-of-issues {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-.new-issue {
-  width: 112px;
-  height: 32px;
-  background-color: rgb(77, 165, 79);
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 14px;
-  border-radius: 6px;
-}
-
-.labels-and-milestones {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.labels-button {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100%;
-  width: 130px;
-  text-align: center;
-  border: 1px solid rgb(225, 228, 232);
-  border-right: 0px;
-  border-radius: 6px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  font-size: 14px;
-}
-
-.milestones-button {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100%;
-  width: 150px;
-  text-align: center;
-  border: 1px solid rgb(225, 228, 232);
-  border-radius: 6px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  font-size: 14px;
-}
-
-.pull-button {
-  width: 180px;
+  min-width: 650px;
 }
 
 .rendered-app {
@@ -152,9 +54,6 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.repo-link-svg {
-  padding: 0px 10px 0px 0px;
 }
 
 .search-and-list-container {
@@ -166,46 +65,9 @@ h4 {
   margin: 0px 80px;
 }
 
-.search-bar-row {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 32px;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 0px 0px 18px 0px;
-}
-
-.search-bar {
-  height: 32px;
-  width: 63%;
-  border-radius: 6px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border: 1px solid rgb(230, 248, 250);
-  background-color: rgb(250, 251, 252);
-}
-
-.labels-and-milestones {
-  padding: 0px 0px 0px 15px;
-}
-.security-button {
-  width: 110px;
-}
-
 .slash {
   padding: 0px 5px;
   font-size: 20px;
-}
-
-.svg {
-  height: 16px;
-  width: 16px;
-  fill: rgb(149, 157, 165);
-}
-
-.issues-svg {
-  fill: black;
 }
 
 .open-issue-svg {
@@ -224,48 +86,8 @@ h4 {
   width: 100%;
 }
 
-.number {
-  font-size: 12px;
-}
-
 @media all and (max-width: 1038px) {
   .tab.insights-button {
-    display: none;
-  }
-}
-
-@media all and (max-width: 913px) {
-  .tab.security-button {
-    display: none;
-  }
-}
-
-@media all and (max-width: 803px) {
-  .tab.wiki-button {
-    display: none;
-  }
-}
-@media all and (max-width: 705px) {
-  .tab.projects-button {
-    display: none;
-  }
-}
-@media all and (max-width: 594px) {
-  .tab.actions-button {
-    fill: none;
-  }
-}
-@media all and (max-width: 544px) {
-  .issues-svg {
-    display: none;
-  }
-  .code-svg {
-    display: none;
-  }
-  .pull-svg {
-    display: none;
-  }
-  .actions-svg {
     display: none;
   }
 }
@@ -281,30 +103,13 @@ h4 {
     display: none;
   }
 
-  .search-bar-row {
-    flex-direction: column-reverse;
-  }
-  .new-issue {
-    margin: 0px 0px 10px 0px;
-  }
-
-  .milestones-button {
-    width: 100%;
-  }
-  .labels-button {
-    width: 100%;
-  }
   .search-and-list-container {
     padding: 0px;
     margin: 0px;
   }
 
-  .issue-header {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .list-of-issues {
+    min-width: 0;
   }
 }
 
@@ -324,23 +129,7 @@ h4 {
 }
 
 @media all and (max-width: 424px) {
-  .labels-button {
-    font-size: 10px;
-  }
   .milestones-button {
     font-size: 10px;
   }
-  .number {
-    font-size: 10px;
-  }
-  .button-filter {
-    font-size: 10px;
-  }
-  .labels-svg {
-    display: none;
-  }
-  .milestones-svg {
-    display: none;
-  }
 }
-

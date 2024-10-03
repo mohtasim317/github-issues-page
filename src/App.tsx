@@ -1,6 +1,6 @@
 import React, { useState, useEffect, FC } from "react";
 import RepoHeader from "./components/RepoHeader/RepoHeader";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/SearchBar/SearchBar";
 import Issues from "./components/Issues/Issues";
 import IssueHeader from "./components/IssuesHeader/IssueHeader";
 import ContributeMessage from "./components/ContributeMessage/ContributeMessage";

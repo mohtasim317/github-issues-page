@@ -3,7 +3,6 @@
   margin: 0px 0px 0px 0px;
   height: 55px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   border: 1px solid rgb(225, 228, 232);
@@ -55,13 +54,6 @@
   font-size: 14px;
 }
 
-@media all and (max-width: 1011px) {
-  .issue-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
 @media all and (max-width: 768px) {
   .issue-header-button-projects {
     display: none;
@@ -73,5 +65,12 @@
 
   .issue-header-button {
     padding: 5px;
+  }
+
+  .issue-header {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }

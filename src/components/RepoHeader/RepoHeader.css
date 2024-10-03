@@ -181,6 +181,35 @@
 .count-fork:hover {
   color: rgb(2, 102, 214);
 }
+.gray-hover:hover {
+  background-color: rgb(246, 248, 250);
+}
+
+.issues-svg {
+  fill: black;
+}
+
+.actions-button {
+  width: 105px;
+}
+
+.insights-button {
+  width: 110px;
+}
+
+.issues-button {
+  width: 140px;
+  border-bottom: 2px solid rgb(240, 129, 107);
+  font-weight: 600;
+}
+
+.pull-button {
+  width: 180px;
+}
+
+.security-button {
+  width: 110px;
+}
 
 @media all and (max-width: 768px) {
   .tabs-row {
@@ -214,6 +243,39 @@
   }
 }
 
-.gray-hover:hover {
-  background-color: rgb(246, 248, 250);
+@media all and (max-width: 544px) {
+  .issues-svg {
+    display: none;
+  }
+  .code-svg {
+    display: none;
+  }
+  .pull-svg {
+    display: none;
+  }
+  .actions-svg {
+    display: none;
+  }
+}
+
+@media all and (max-width: 913px) {
+  .tab.security-button {
+    display: none;
+  }
+}
+
+@media all and (max-width: 803px) {
+  .tab.wiki-button {
+    display: none;
+  }
+}
+@media all and (max-width: 705px) {
+  .tab.projects-button {
+    display: none;
+  }
+}
+@media all and (max-width: 594px) {
+  .tab.actions-button {
+    fill: none;
+  }
 }
