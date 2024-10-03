@@ -1,0 +1,47 @@
+.contribute {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+.contribute-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  padding: 0px 0px 8px 0px;
+}
+
+.contribute-two {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contributing-link {
+  color: rgb(2, 102, 214);
+}
+
+.contributing-link:hover {
+  text-decoration: underline;
+}
+
+.contribute-message {
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(225, 228, 232);
+  padding: 0px 100px;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+  margin: 0px 0px 25px 0px;
+}
+
+.contribute-first-line {
+  display: flex;
+  flex-direction: row;
+}
+.contribute-first-line-text {
+  margin: 0px 0px 0px 5px;
+}
