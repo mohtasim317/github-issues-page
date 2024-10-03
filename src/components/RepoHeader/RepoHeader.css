@@ -211,6 +211,10 @@
   width: 110px;
 }
 
+.svg {
+  fill: rgb(149, 157, 165);
+}
+
 @media all and (max-width: 768px) {
   .tabs-row {
     padding: 0px 5px;
