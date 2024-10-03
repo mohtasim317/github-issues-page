@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./RepoHeader.css";
 
-const RepoHeader: FC = () => {
+const RepoHeader: FC = (): JSX.Element => {
   return (
     <div className="repo-header">
       <div className="link-and-buttons">

@@ -1,17 +1,9 @@
 import { FC } from "react";
 import "./Issues.css";
 import moment from "moment";
+import { IssuesProps } from "../../types";
 
-interface Props {
-  key: number;
-  title: string;
-  number: number;
-  login: string;
-  created_at: string;
-  // id: number;
-}
-
-const Issues: FC<Props> = (props) => {
+const Issues: FC<IssuesProps> = (props): JSX.Element => {
   const then = moment(props.created_at);
   const now = moment();
   const ans = then.from(now);

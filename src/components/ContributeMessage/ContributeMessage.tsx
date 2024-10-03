@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./ContributeMessage.css";
 
-const ContributeMessage: FC = () => {
+const ContributeMessage: FC = (): JSX.Element => {
   return (
     <div className="contribute-message">
       <div className="contribute-first-line">

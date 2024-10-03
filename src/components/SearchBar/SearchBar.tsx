@@ -1,11 +1,12 @@
 import { FC } from "react";
 import "./SearchBar.css";
+import { SearchBarProps } from "../../types";
 
-interface Props {
-  searchingFunction: any;
-}
+const SearchBar: FC<SearchBarProps> = ({ updateSearchValue }): JSX.Element => {
+  const handleChange = (event: { target: HTMLInputElement }): void => {
+    updateSearchValue(event.target.value);
+  };
 
-const SearchBar: FC<Props> = (props) => {
   return (
     <div className="search-bar-row">
       <div className="filter-and-form">
@@ -16,7 +17,7 @@ const SearchBar: FC<Props> = (props) => {
           className="search-bar"
           placeholder="  is:issue is:open "
           style={{ fontSize: "14px" }}
-          onChange={props.searchingFunction}
+          onChange={handleChange}
         ></input>
         <div className="labels-and-milestones">
           <div className="labels-button gray-hover">

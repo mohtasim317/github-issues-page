@@ -37,10 +37,6 @@ const App: FC = () => {
     fetchData();
   }, []);
 
-  const handleChange = (event: { target: HTMLInputElement }) => {
-    updateSearchValue(event.target.value);
-  };
-
   return (
     <div className="app">
       {fetchStatus ? (
@@ -48,11 +44,10 @@ const App: FC = () => {
           <RepoHeader />
           <div className="search-and-list-container">
             <ContributeMessage />
-            <SearchBar searchingFunction={handleChange} />
+            <SearchBar updateSearchValue={updateSearchValue} />
             <div className="list-of-issues">
               <IssueHeader />
               {data
-                // eslint-disable-next-line array-callback-return
                 .filter((issue) => {
                   if (issue.title.toLowerCase().includes(searchValue)) {
                     return issue;

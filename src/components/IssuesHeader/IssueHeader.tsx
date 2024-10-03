@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./IssuesHeader.css";
 
-const IssueHeader: FC = () => {
+const IssueHeader: FC = (): JSX.Element => {
   return (
     <div className="issue-header">
       <div className="number-issues-container">
