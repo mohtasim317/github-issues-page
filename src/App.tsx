@@ -1,8 +1,8 @@
 import React, { useState, useEffect, FC } from "react";
 import RepoHeader from "./components/RepoHeader";
 import SearchBar from "./components/SearchBar";
-import Issues from "./components/Issues";
-import IssueHeader from "./components/IssueHeader";
+import Issues from "./components/Issues/Issues";
+import IssueHeader from "./components/IssuesHeader/IssueHeader";
 import ContributeMessage from "./components/ContributeMessage/ContributeMessage";
 import "./index.css";
 

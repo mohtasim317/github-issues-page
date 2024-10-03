@@ -45,3 +45,10 @@
 .contribute-first-line-text {
   margin: 0px 0px 0px 5px;
 }
+
+@media all and (max-width: 507px) {
+  .contribute-message {
+    height: 150px;
+    padding: 0px 30px;
+  }
+}

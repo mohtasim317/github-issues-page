@@ -1,0 +1,37 @@
+.issue {
+  height: 100px;
+}
+
+.issue-creator {
+  padding: 8px 0px 0px 23px;
+  margin: 0px;
+  font-size: 12px;
+  color: rgb(88, 96, 105);
+  display: flex;
+  align-items: center;
+}
+
+.issue-title {
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  font-weight: 500;
+}
+
+.issue-title:hover {
+  color: blue;
+}
+
+.svg-and-issue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+}
+
+@media all and (max-width: 768px) {
+  .issue {
+    height: 150px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}

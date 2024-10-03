@@ -186,27 +186,6 @@ h4 {
   width: 140px;
 }
 
-.issue-header {
-  background-color: rgb(246, 248, 250);
-  margin: 0px 0px 0px 0px;
-  height: 55px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  border: 1px solid rgb(225, 228, 232);
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding: 0px 15px;
-  width: 100%;
-}
-
-.issue-header-tabs-container {
-  display: flex;
-  flex-direction: row;
-  /* width: 100%; */
-}
-
 .issue-row {
   display: flex;
   flex-direction: row;
@@ -382,13 +361,6 @@ h4 {
   fill: rgb(149, 157, 165);
 }
 
-.svg-and-issue {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 20px;
-}
-
 .issues-svg {
   fill: black;
 }
@@ -438,76 +410,13 @@ h4 {
   width: 100%;
 }
 
-.issue {
-  height: 100px;
-}
-
 .number {
   font-size: 12px;
-}
-
-.issue-creator {
-  padding: 8px 0px 0px 23px;
-  margin: 0px;
-  font-size: 12px;
-  color: rgb(88, 96, 105);
-  display: flex;
-  align-items: center;
-}
-
-.issue-title {
-  margin: 0px;
-  padding: 0px 0px 0px 10px;
-  font-weight: 450;
-}
-
-.number-issues-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.number-issues-open {
-  display: flex;
-  flex-direction: row;
-  padding: 0px 5px 0px 5px;
-  font-size: 14px;
-  font-weight: 500;
-  margin: 0px 6px 0px 0px;
-}
-
-.number-issues-closed {
-  display: flex;
-  flex-direction: row;
-  margin: 0px 0px 0px 5px;
-  font-size: 14px;
-  color: rgb(91, 98, 107);
-}
-
-.issues-status-count {
-  padding-left: 6px;
-}
-
-.issue-header-button {
-  padding: 0px 16px;
-  font-size: 14px;
-  color: rgb(91, 98, 107);
-}
-
-.issue-header-button-sort {
-  padding: 0px 0px 0px 16px;
-  font-size: 14px;
 }
 
 @media all and (max-width: 1038px) {
   .tab.insights-button {
     display: none;
-  }
-}
-
-@media all and (max-width: 1011px) {
-  .issue-header {
-    flex-direction: column;
-    align-items: flex-start;
   }
 }
 
@@ -565,20 +474,6 @@ h4 {
     margin: 0px 0px 10px 0px;
   }
 
-  .issue-header-button-projects {
-    display: none;
-  }
-
-  .issue-header-button-milestones {
-    display: none;
-  }
-
-  .issue {
-    height: 150px;
-    font-size: 12px;
-    font-weight: 300;
-  }
-
   .milestones-button {
     width: 100%;
   }
@@ -589,9 +484,7 @@ h4 {
     padding: 0px;
     margin: 0px;
   }
-  .issue-header-button {
-    padding: 5px;
-  }
+
   .issue-header {
     margin-top: 5px;
     display: flex;
@@ -611,10 +504,6 @@ h4 {
 @media all and (max-width: 507px) {
   .tab.actions-button {
     display: none;
-  }
-  .contribute-message {
-    height: 150px;
-    padding: 0px 30px;
   }
   .search-and-list-container {
     padding: 0px 0px;
@@ -675,8 +564,4 @@ h4 {
 
 .gray-hover:hover {
   background-color: rgb(246, 248, 250);
-}
-
-.issue-title:hover {
-  color: blue;
 }

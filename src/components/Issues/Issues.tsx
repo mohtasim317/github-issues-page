@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "../index.css";
+import "./Issues.css";
 import moment from "moment";
 
 interface Props {
