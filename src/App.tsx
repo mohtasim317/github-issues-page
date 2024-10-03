@@ -1,4 +1,4 @@
-import React, { useState, useEffect, FC } from "react";
+import { useState, useEffect, FC } from "react";
 import RepoHeader from "./components/RepoHeader/RepoHeader";
 import SearchBar from "./components/SearchBar/SearchBar";
 import Issues from "./components/Issues/Issues";
