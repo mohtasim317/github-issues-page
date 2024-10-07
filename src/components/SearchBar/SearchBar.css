@@ -19,6 +19,7 @@
   justify-content: center;
   align-items: center;
   width: 100px;
+  min-width: 80px;
   margin: 0px;
   padding: 0px;
   height: 32px;
@@ -120,7 +121,7 @@
   }
 }
 
-@media all and (max-width: 424px) {
+@media all and (max-width: 480px) {
   .button-filter {
     font-size: 10px;
   }
@@ -137,6 +138,9 @@
     display: none;
   }
   .labels-svg {
+    display: none;
+  }
+  .labels-and-milestones {
     display: none;
   }
 }

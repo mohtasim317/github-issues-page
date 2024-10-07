@@ -1,5 +1,5 @@
 .issue {
-  height: 100px;
+  /* height: 100px; */
 }
 
 .issue-creator {
@@ -28,10 +28,15 @@
   height: 20px;
 }
 
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
   .issue {
-    height: 150px;
     font-size: 12px;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 480px) {
+  .svg-and-issue {
+    height: 30px;
   }
 }

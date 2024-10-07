@@ -48,8 +48,9 @@ h4 {
   background-color: white;
   border: 1px solid rgb(225, 228, 232);
   border-top: 0px;
-  height: 62.3px;
+  height: 65px;
   padding: 10px 8px 0px 16px;
+  /* just */
 }
 
 .issue-row:hover {
@@ -136,9 +137,13 @@ h4 {
   }
 }
 
-@media all and (max-width: 440px) {
+@media all and (max-width: 480px) {
   .tab-row {
     margin: 0px 0px;
+  }
+
+  .issue-row {
+    height: 80px;
   }
 }
 

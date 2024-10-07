@@ -223,7 +223,7 @@
   }
 }
 
-@media all and (max-width: 424px) {
+@media all and (max-width: 480px) {
   .issues-button {
     width: 30%;
     font-size: 12px;
